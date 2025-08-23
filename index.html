@@ -17,14 +17,14 @@
     input[type=range] {width:100%; margin-top:8px;}
     .slider-labels {display:flex; justify-content:space-between; font-size:0.8rem; color:#374151; margin-top:4px;}
     .info {font-size:0.85rem; color:#374151; line-height:1.4; background:#f3f4f6; padding:8px; border-radius:6px; text-align:left;}
-    #correctionDisplay {font-weight:bold; margin-top:10px; font-size:1rem; color:#111827; text-align:center;}
+    #correctionDisplay {font-weight:bold; margin-top:6px; font-size:1rem; color:#111827; text-align:center;}
     #distributionValue, #timeDisplay {font-weight:bold; color:#1d4ed8;}
     #fluidSummary {margin-top:10px; background:#eff6ff; border-radius:8px; padding:10px; font-size:0.9rem;}
     #warningBox {margin-top:10px; background:#fef2f2; border:1px solid #fecaca; color:#991b1b; border-radius:8px; padding:10px; font-size:0.85rem; display:none;}
     ul {padding-left:20px; margin:0;}
     li {margin-bottom:6px; font-size:0.85rem;}
     .short-input {max-width:120px;}
-    .note {font-size:0.8rem; color:#6b7280; margin-top:6px; text-align:left;}
+    .note {font-size:0.8rem; color:#6b7280; margin-top:2px; margin-bottom:0; text-align:left;}
   </style>
 </head>
 <body>
@@ -41,7 +41,7 @@
   <div class="card">
     <h3>🧮 계산 수식</h3>
     <div class="info">필요 보정량 (mEq)<br> = (24 - HCO₃⁻) × 체중(kg) × 분포계수 (기본 0.4)</div>
-    <p class="note">※ 8.4% 중탄산나트륨액 기준</p>
+    <p class="note">※ 8.4% 중탄산나트륨 용액 기준</p>
     <p id="correctionDisplay"></p>
   </div>
 
